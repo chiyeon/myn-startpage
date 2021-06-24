@@ -7,7 +7,7 @@ a customizable minimalist browser start page
 ## configuration
 myn is simple to configure.
 
-all editting should be done to the pages.js file, which
+all editing should be done to the pages.js file, which
 contains all the customizable variables.
 
 ### font & colors
