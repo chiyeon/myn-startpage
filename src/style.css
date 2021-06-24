@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+}
+
+.links-container {
+	position: fixed;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+	
+	display: grid;
+	text-align: center;
+}
+
+.hidden {
+	opacity: 0;
+	pointer-events: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.link:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#navigation {
+	position: fixed;
+	bottom: 50%;
+	right: 50%;
+	transform: translate(50%, 50%);
+	padding-top: 128px;
+	z-index: -1;
+}
+
+button {
+	border: none;
+	width: 17px;
+	color: #777777;
+	background-color: #ffffff00;
+}
+
+button:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.selected {
+	text-decoration: underline;
+}
